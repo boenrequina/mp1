@@ -1,0 +1,90 @@
+body {
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #DCB360;
+  color: #FFFFFF;
+}
+
+.navbar {
+  background-color: #1E1E1E;
+}
+
+.nav-link {
+  color: #F1C40F;
+}
+
+.nav-link:hover {
+  color: #FFFFFF;
+}
+
+.hero-message {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.info-cards {
+  margin: 2rem 0;
+}
+
+.card {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  border-color: #F1C40F;
+}
+
+.card-title {
+  color: #F1C40F;
+}
+
+.btn-primary {
+  background-color: #F1C40F;
+  border-color: #F1C40F;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #d9b200;
+  border-color: #d9b200;
+}
+
+.btn-dark {
+  background-color: #1E1E1E;
+  border-color: #F1C40F;
+  color: #F1C40F;
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  background-color: #333333;
+  border-color: #F1C40F;
+  color: #FFFFFF;
+}
+
+@font-face {
+  src: url(font/HKGroteskWide-Black.otf);
+  font-family: hk;
+  
+}
+
+@font-face {
+  src: url(font/Vercetti-Regular.ttf);
+  font-family: vercetti;
+}
+
+h1, h2 {
+  font-family: hk;
+}
+
+.hero-p, p {
+  font-family: vercetti;
+}
+
+.navbar-brand {
+  font-family: hk;
+}
